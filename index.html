@@ -38,7 +38,7 @@
   </head>
 
   <body>
-    <header class="md:w-7/10 mx-auto space-y-10 mt-20">
+    <header class="max-w-[1170px] md:w-29/30 mx-auto space-y-10 mt-20">
       <nav class="lg:flex justify-between items-center text-center">
         <figure class="flex items-center justify-center">
           <img src="./images/business.png" alt="Justice" />
@@ -87,7 +87,8 @@
         </div>
       </div>
     </header>
-    <main class="lg:w-7/10 mx-auto text-center my-20 space-y-20">
+
+    <main class="max-w-[1170px] md:w-29/30 mx-auto text-center my-20 space-y-20">
       <!-- the legal practice area  -->
       <section>
         <h2 class="text-5xl font-bold text-[#414040]">
@@ -250,7 +251,9 @@
       </section>
 
       <!-- Contact With Us -->
-      <section class="w-9/10 mx-auto">
+      <section>
+
+
         <h2 class="text-5xl font-bold text-[#414040]">Contact With Us</h2>
         <p class="text-[#707070] mt-6 poppins max-w-3xl mx-auto mb-10">
           There are many variations of passages of Lorem Ipsum available, but
@@ -258,22 +261,23 @@
           humour.
         </p>
 
-        <div class="lg:flex gap-8">
-          <div class="grid grid-cols-1  md:grid-cols-2 mb-10">
+        <div class="lg:flex justify-between gap-8">
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:max-w-[570px] mb-10">
             <div
-              class="bg-[#F3F3F3] space-y-2 p-16 border-r border-b border-[#CFCFCF]"
+              class="bg-[#F3F3F3] space-y-2 p-16  border-r border-b border-[#CFCFCF]"
             >
               <img class="mx-auto" src="./images/address.png" alt="Address" />
               <h3 class="text-xl text-[#414040] font-extrabold eb-garamond">
                 Address
               </h3>
               <p class="poppins text-[#707070]">
-                A108 Adam Street, <br />
+                A108 Adam Street, <br>
                 New York, NY 535022
               </p>
             </div>
 
-            <div class="bg-[#F3F3F3] space-y-2 p-16 border-b border-[#CFCFCF]">
+            <div class="bg-[#F3F3F3] space-y-2 py-16  border-b border-[#CFCFCF]">
               <img class="mx-auto" src="./images/call.png" alt="Address" />
               <h3 class="text-xl text-[#414040] font-extrabold eb-garamond">
                 Call Us
@@ -284,7 +288,7 @@
               </p>
             </div>
 
-            <div class="bg-[#F3F3F3] space-y-2 p-16 border-r border-[#CFCFCF]">
+            <div class="bg-[#F3F3F3] space-y-2 py-16  border-r border-[#CFCFCF]">
               <img class="mx-auto" src="./images/email.png" alt="Address" />
               <h3 class="text-xl text-[#414040] font-extrabold eb-garamond">
                 Email Us
@@ -295,7 +299,7 @@
               </p>
             </div>
 
-            <div class="bg-[#F3F3F3] space-y-2 p-16">
+            <div class="bg-[#F3F3F3] space-y-2 py-16 box-content">
               <img class="mx-auto" src="./images/time.png" alt="Address" />
               <h3 class="text-xl text-[#414040] font-extrabold eb-garamond">
                 Working Hours
@@ -307,7 +311,7 @@
             </div>
           </div>
 
-          <div class="space-y-[30px]">
+          <div class="space-y-[20px] lg:max-w-[570px]">
             <input
               class="w-full p-6 text-[#707070] bg-[#F3F3F3] rounded-[6px]"
               type="text"
@@ -318,7 +322,7 @@
 
             <input
               class="w-full p-6 text-[#707070] bg-[#F3F3F3] rounded-[6px]"
-              type="text"
+              type="email"
               name="name"
               id=""
               placeholder="Your Email "
@@ -333,16 +337,95 @@
             />
 
             <textarea
-              class="w-full resize-none p-6 text-[#707070] bg-[#F3F3F3] rounded-[6px]" rows="8"
+              class="w-full resize-none p-6 text-[#707070] bg-[#F3F3F3] rounded-[6px]"
+              rows="8"
               name=""
               id=""
               placeholder="Your Message"
             ></textarea>
 
-            <input class="bg-[#B68C5A] py-5 px-7 rounded-2xl font-semibold text-white w-full" type="submit" value="Send Message">
+            <input
+              class="bg-[#B68C5A] py-5 px-7 rounded-2xl font-semibold text-white w-full"
+              type="submit"
+              value="Send Message"
+            />
           </div>
         </div>
       </section>
     </main>
+
+    <!-- footer section -->
+    <footer class="bg-[#111111] text-center py-10">
+      <section class="max-w-[1170px] mx-auto space-y-5 grid md:grid-cols-2 lg:grid-cols-4">
+        <div class="">
+          <img class="mx-auto" src="./images/logo.png" alt="" />
+          <p class="text-[#CFCFCF] mt-6 poppins max-w-[260PX] mx-auto mb-10">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour.
+          </p>
+        </div>
+
+
+        
+        <div>
+          <h3 class="text-xl text-white font-extrabold eb-garamond mb-5">
+                Useful Link
+              </h3>
+
+              <ul class="text-[#CFCFCF]">
+                <li><a href="">Homes</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Cases</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contact Us</a></li>
+              </ul>
+        </div>
+
+
+        <div>
+          <h3 class="text-xl text-white font-extrabold eb-garamond mb-5">
+                Contact Now
+              </h3>
+
+              <ul class="text-[#CFCFCF] space-y-3">
+                <li>
+                555 4th 5t NW, Washington <br> 
+                DC 20530, United States
+              </li>
+              <li>
+                +88 01750 000 000 <br>
+                 +88 01750 000 000
+              </li>
+              <li>
+                info@gmail.com <br> 
+                info@gmail.com
+              </li>
+              </ul>
+        </div>
+
+
+        <div>
+          <h3 class="text-xl text-white font-extrabold eb-garamond mb-5">
+                Subscribe
+              </h3>
+              <p class="text-[#CFCFCF] mt-6 poppins max-w-[260PX] mx-auto mb-10">
+           Subscribe for our latest & Articles. We Won’t Give You Spam Mails
+          </p>
+          <input
+              class="w-2/4 p-6 text-[#707070] bg-[#F3F3F3] rounded-[6px]"
+              type="email"
+              name="name"
+              id=""
+              placeholder="Your Email "
+            />
+            <button
+          class="bg-[#B68C5A] py-5 px-7 rounded-2xl font-semibold text-white"
+        >
+          <i class="fa-brands fa-telegram"></i>
+        </button>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>
