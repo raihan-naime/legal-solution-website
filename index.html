@@ -38,13 +38,13 @@
   </head>
 
   <body>
-    <header class="md:w-7/10 mx-auto space-y-10 text-left mt-20">
-      <nav class="lg:flex justify-between items-center">
-        <figure class="flex items-center">
+    <header class="md:w-7/10 mx-auto space-y-10 mt-20">
+      <nav class="lg:flex justify-between items-center text-center">
+        <figure class="flex items-center justify-center">
           <img src="./images/business.png" alt="Justice" />
           <span class="font-extrabold text-4xl eb-garamond">Justice</span>
         </figure>
-        <ul class="lg:flex space-x-10 text-[#707070] ml-5 my-4">
+        <ul class="lg:flex text-[#707070] my-4">
           <li><a href="">Home</a></li>
           <li><a href="">Services</a></li>
           <li><a href="">Cases</a></li>
@@ -61,11 +61,13 @@
       <div
         class="py-10 bg-purple-800 md:h-[550px] flex items-center rounded-xl"
       >
-        <div class="md:max-w-[700px] w-6/7 text-center mx-auto space-y-10">
-          <h1 class="text-7xl text-white font-extrabold eb-garamond mb-5">
+        <div class="md:max-w-[700px] w-6/7 mx-auto space-y-10">
+          <h1
+            class="lg:text-7xl text-4xl text-white font-extrabold eb-garamond mb-5 text-center"
+          >
             We Provide Effective Legal Solutions
           </h1>
-          <p class="text-[#E7E7E7]">
+          <p class="text-[#E7E7E7] text-center">
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration in some form, by injected
             humour.
@@ -78,25 +80,26 @@
             placeholder="Search your services"
           />
           <button
-            class="bg-[#B68C5A] py-5 px-7 rounded-2xl font-semibold block md:inline ml-1 mx-auto text-white"
+            class="bg-[#B68C5A] py-5 px-7 rounded-2xl font-semibold md:inline text-white"
           >
             Search
           </button>
         </div>
       </div>
     </header>
-    <main class="lg:w-7/10 mx-auto text-center my-20">
+    <main class="lg:w-7/10 mx-auto text-center my-20 space-y-20">
+      <!-- the legal practice area  -->
       <section>
         <h2 class="text-5xl font-bold text-[#414040]">
           The Legal Practice Area
         </h2>
-        <p class="text-[#707070] mt-6 poppins">
+        <p class="text-[#707070] mt-6 poppins max-w-3xl mx-auto">
           There are many variations of passages of Lorem Ipsum available, but
           the majority have suffered alteration in some form, by injected
           humour.
         </p>
 
-        <div class="mt-16 md:grid md:grid-cols-3">
+        <div class="mt-16 sm:grid-cols-1 md:grid md:grid-cols-3">
           <div class="space-y-4 w-full px-8 py-12">
             <img class="mx-auto" src="./images/business.png" alt="" />
             <h3 class="text-3xl text-[#414040] font-extrabold eb-garamond">
@@ -199,6 +202,144 @@
             >
               <i class="fa-solid fa-arrow-right"></i>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- what our client say  -->
+      <section class="space-y-5">
+        <h2 class="text-5xl font-bold text-[#414040]">What Our Client Say</h2>
+        <p class="text-[#707070] mt-6 poppins max-w-3xl mx-auto">
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected
+          humour.
+        </p>
+
+        <div
+          class="text-center bg-[#393E46] mt-15 rounded-xl text-white py-24 md:px-35"
+        >
+          <figure>
+            <img
+              class="h-17 w-17 rounded-full mx-auto"
+              src="./images/business-man.jpg"
+              alt="business man"
+            />
+            <h4 class="text-2xl font-extrabold">Awlad Hossain</h4>
+            <p class="text-xl">UIX Designer</p>
+            <p class="max-w-[900px] mx-auto text-[#F3F3F3]">
+              Contrary to popular belief, Lorem Ipsum is not simply random text.
+              It has roots in a piece of classical Latin literature from 45 BC,
+              making it over 2000 years old. Richard McClintock, a Latin
+              professor at Hampden-Sydney College in Virginia, looked up one of
+              the more obscure Latin words, consectetur.
+            </p>
+          </figure>
+        </div>
+      </section>
+
+      <!-- Frequently Asked Any Questions -->
+      <section>
+        <h2 class="text-5xl font-bold text-[#414040]">
+          Frequently Asked Any Questions
+        </h2>
+        <p class="text-[#707070] mt-6 poppins max-w-3xl mx-auto">
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected
+          humour.
+        </p>
+      </section>
+
+      <!-- Contact With Us -->
+      <section class="w-9/10 mx-auto">
+        <h2 class="text-5xl font-bold text-[#414040]">Contact With Us</h2>
+        <p class="text-[#707070] mt-6 poppins max-w-3xl mx-auto mb-10">
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected
+          humour.
+        </p>
+
+        <div class="lg:flex gap-8">
+          <div class="grid grid-cols-1  md:grid-cols-2 mb-10">
+            <div
+              class="bg-[#F3F3F3] space-y-2 p-16 border-r border-b border-[#CFCFCF]"
+            >
+              <img class="mx-auto" src="./images/address.png" alt="Address" />
+              <h3 class="text-xl text-[#414040] font-extrabold eb-garamond">
+                Address
+              </h3>
+              <p class="poppins text-[#707070]">
+                A108 Adam Street, <br />
+                New York, NY 535022
+              </p>
+            </div>
+
+            <div class="bg-[#F3F3F3] space-y-2 p-16 border-b border-[#CFCFCF]">
+              <img class="mx-auto" src="./images/call.png" alt="Address" />
+              <h3 class="text-xl text-[#414040] font-extrabold eb-garamond">
+                Call Us
+              </h3>
+              <p class="poppins text-[#707070]">
+                +88 01750 00 00 00 <br />
+                +88 01750 00 00 00
+              </p>
+            </div>
+
+            <div class="bg-[#F3F3F3] space-y-2 p-16 border-r border-[#CFCFCF]">
+              <img class="mx-auto" src="./images/email.png" alt="Address" />
+              <h3 class="text-xl text-[#414040] font-extrabold eb-garamond">
+                Email Us
+              </h3>
+              <p class="poppins text-[#707070]">
+                info@gmail.com <br />
+                info@gmail.com
+              </p>
+            </div>
+
+            <div class="bg-[#F3F3F3] space-y-2 p-16">
+              <img class="mx-auto" src="./images/time.png" alt="Address" />
+              <h3 class="text-xl text-[#414040] font-extrabold eb-garamond">
+                Working Hours
+              </h3>
+              <p class="poppins text-[#707070]">
+                Mon-Fri: 9AM to 5PM <br />
+                Sunday: 9AM to 1 PM
+              </p>
+            </div>
+          </div>
+
+          <div class="space-y-[30px]">
+            <input
+              class="w-full p-6 text-[#707070] bg-[#F3F3F3] rounded-[6px]"
+              type="text"
+              name="name"
+              id=""
+              placeholder="Your Name "
+            />
+
+            <input
+              class="w-full p-6 text-[#707070] bg-[#F3F3F3] rounded-[6px]"
+              type="text"
+              name="name"
+              id=""
+              placeholder="Your Email "
+            />
+
+            <input
+              class="w-full p-6 text-[#707070] bg-[#F3F3F3] rounded-[6px]"
+              type="text"
+              name="name"
+              id=""
+              placeholder="Subject"
+            />
+
+            <textarea
+              class="w-full resize-none p-6 text-[#707070] bg-[#F3F3F3] rounded-[6px]" rows="8"
+              name=""
+              id=""
+              placeholder="Your Message"
+            ></textarea>
+
+            <input class="bg-[#B68C5A] py-5 px-7 rounded-2xl font-semibold text-white w-full" type="submit" value="Send Message">
           </div>
         </div>
       </section>
